@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (hidapi.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  hidtest.vcxproj -> C:\Users\Wyse\Documents\hidapi\windows\Debug\g930-battery-percentage-win.exe

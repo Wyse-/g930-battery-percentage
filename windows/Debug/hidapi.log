@@ -1,0 +1,4 @@
+﻿  hid.c
+hid.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:\Users\Wyse\Documents\hidapi\windows\Debug\hidapi.lib and object C:\Users\Wyse\Documents\hidapi\windows\Debug\hidapi.exp
+  hidapi.vcxproj -> C:\Users\Wyse\Documents\hidapi\windows\Debug\hidapi.dll
