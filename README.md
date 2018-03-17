@@ -1,16 +1,12 @@
-g930-battery-percentage
-=======================
+g930-battery-percentage-win
+===========================
 
-This is a small command line utility that prints the battery percentage of a Logitech G930 wireless headset. A systemd user service is also provided to send desktop notifications when the battery level is low.
+This is a [g930-battery-percentage](https://github.com/Roliga/g930-battery-percentage) Windows port achieved by using the [hidapi](https://github.com/signal11/hidapi) `hidtest` as a base. Only the main executable has been ported, this means no low battery notification or auto-checking service.
 
-Build/Install
--------------
+Usage
+-----
+Just start the `g930-battery-percentage-win.exe` exectuable, preferably from a command line window so you actually have time to read the output. That's all this does for now.
 
-Install `hidapi` and optionally `libnotify` to provide `notify-send` for the notification service, then build and install with:
-
-	make
-	make install
-
-Depending on your system you may need to run `udevadm control --reload-rules` for the udev rules to apply.
-
-If the program needs to be run outside a user session (from ssh for example), the user must be added to the `plugdev` group.
+Screenshots
+-----------
+![alt tag](https://i.imgur.com/5At3Ijr.png)
