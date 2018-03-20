@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include "hidapi.h"
 #include <windows.h>
+#define BATTERY_MAX 91
+#define BATTERY_MIN 44
 
 int main(int argc, char* argv[])
 {
+	unsigned int batteryPercent = -1;
 	bool foundFlag = false;
 	int res;
 	hid_device *handle;
@@ -43,7 +46,8 @@ int main(int argc, char* argv[])
 						Sleep(100);
 					}
 				}
-				printf("%d\n", buf[13]);
+				batteryPercent = (buf[13] - BATTERY_MIN) * 100 / (BATTERY_MAX - BATTERY_MIN);
+				printf("%d\n", batteryPercent);
 				hid_close(handle);
 				hid_exit();
 			}
