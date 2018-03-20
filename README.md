@@ -9,8 +9,6 @@ Description
 -----------
 This is a [g930-battery-percentage](https://github.com/Roliga/g930-battery-percentage) Windows port achieved by using the [hidapi](https://github.com/signal11/hidapi) `hidtest` as a base. Only the main executable has been ported, this means no low battery notification or auto-checking service.
 
-*The reported value [seems to be incorrect](https://github.com/Roliga/g930-battery-percentage/issues/1), will update when this is fixed*
-
 Usage
 -----
 Just start the `g930-battery-percentage-win.exe` exectuable, preferably from a command line window so you actually have time to read the output. That's all this does for now.
