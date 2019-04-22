@@ -3,7 +3,7 @@ g930-battery-percentage-win
 
 Screenshots
 -----------
-![alt tag](https://i.imgur.com/5At3Ijr.png)
+![screenshot](https://user-images.githubusercontent.com/5454041/56529770-98185a80-6551-11e9-9d56-4ef148663151.png)
 
 Description
 -----------
